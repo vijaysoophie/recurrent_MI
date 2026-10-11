@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the paper and the archived release."
+title: "recurrent_MI: simulation code and data for mutual information in linear recurrent circuits"
+abstract: >-
+  Simulation code and data reproducing every figure and every number in Singh and
+  Tchernookov, "Mutual information in linear recurrent circuits: inhibition in the olfactory
+  bulb increases information only against a fixed noise floor". One seeded Jupyter notebook
+  produces all results and checks 50 of them against the values printed in the paper.
+type: software
+license: MIT
+authors:
+  - family-names: Singh
+    given-names: Vijay
+    affiliation: "Department of Physics and Astronomy, Haverford College, Haverford, Pennsylvania, United States of America"
+    email: vsingh1@haverford.edu
+  - family-names: Tchernookov
+    given-names: Martin
+    affiliation: "Department of Physics, University of Wisconsin-Whitewater, Whitewater, Wisconsin, United States of America"
+keywords:
+  - mutual information
+  - efficient coding
+  - olfactory bulb
+  - recurrent inhibition
+  - neurogenesis
+  - computational neuroscience
+version: 1.0.0
+# Add once Zenodo has minted it, then commit and cut a follow-up release:
+#   identifiers:
+#     - type: doi
+#       value: 10.5281/zenodo.XXXXXXX
+#       description: Concept DOI, always the latest version
+# And once the paper is published, add its DOI under preferred-citation.
