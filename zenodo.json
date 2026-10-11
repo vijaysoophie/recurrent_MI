@@ -1,0 +1,27 @@
+{
+  "upload_type": "software",
+  "title": "recurrent_MI: simulation code and data for \"Mutual information in linear recurrent circuits: inhibition in the olfactory bulb increases information only against a fixed noise floor\"",
+  "description": "<p>Simulation code and data for Singh and Tchernookov, <i>Mutual information in linear recurrent circuits: inhibition in the olfactory bulb increases information only against a fixed noise floor</i>.</p><p>A single Jupyter notebook, <code>recurrent_MI_simulations.ipynb</code>, reproduces every figure and every number the paper reports. It runs top to bottom with no arguments, is fully seeded, and checks itself: 50 quantities are compared against the values printed in the paper, and the final cell raises if any comparison fails. All 182 recorded quantities are written to <code>results.json</code>.</p><p>The repository also carries the eight glomerular activation patterns of Chow, Wick and Riecke (2012), which we recovered from their published figures rather than obtaining from the authors. See the README for the validation of that recovery and the attribution it requires.</p>",
+  "creators": [
+    {
+      "name": "Singh, Vijay",
+      "affiliation": "Department of Physics and Astronomy, Haverford College, Haverford, Pennsylvania, United States of America"
+    },
+    {
+      "name": "Tchernookov, Martin",
+      "affiliation": "Department of Physics, University of Wisconsin-Whitewater, Whitewater, Wisconsin, United States of America"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "mutual information",
+    "efficient coding",
+    "olfactory bulb",
+    "recurrent inhibition",
+    "granule cells",
+    "neurogenesis",
+    "decorrelation",
+    "computational neuroscience"
+  ]
+}
